@@ -1,0 +1,24 @@
+PHASE 3 PROJECT 
+developer:sai krishna
+
+1. Create SQL database and name it as shoe
+
+2. Run the SQL queries from the sql.txt file provided along with the project in the sqlconsole so that admin and coategory data will be inserted 
+
+3.Run the maven project in tomcat server on version greater than V9.0
+
+4. this sql.txt file is provided with 4 category
+
+5. add products through admin dashboard then products will be displayed in home page. 
+
+6. editing,inserting and deleting products and product category details can be done in admin dashboard
+
+7.To login as admin use 'admin' as username and 'admin' as password
+
+8. Password can be changed in the admin dashboard
+
+GITHUB LINK:
+
+	https://github.com/saikrishna6489/simplephase3.git
+
+*****CHROME OR FIREFOX BROWSER IS PREFEREBLE*****

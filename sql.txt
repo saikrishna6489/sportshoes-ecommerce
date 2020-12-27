@@ -1,0 +1,30 @@
+
+DROP TABLE IF EXISTS `category`;
+
+CREATE TABLE `category` (
+`ID` int(11) NOT NULL AUTO_INCREMENT,
+`name` varchar(40) DEFAULT NULL,
+PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+	
+LOCK TABLES `category` WRITE;
+
+INSERT INTO category(name) VALUES ('Running Shoes'); 
+INSERT INTO category(name) VALUES ('Cross Trainers');
+INSERT INTO category(name) VALUES ('Court Shoes');
+INSERT INTO category(name) VALUES ('Hiking Shoes');
+UNLOCK TABLES;
+
+DROP TABLE IF EXISTS `admin`;
+
+CREATE TABLE `admin` (
+`ID` int(11) NOT NULL AUTO_INCREMENT,
+`admin_id` varchar(40) DEFAULT NULL,
+`admin_pwd` varchar(40) DEFAULT NULL,
+PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+	
+LOCK TABLES `admin` WRITE;
+
+INSERT INTO admin(admin_id, admin_pwd) VALUES ('admin', 'admin'); 
+UNLOCK TABLES;
